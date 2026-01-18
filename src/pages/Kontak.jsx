@@ -26,18 +26,19 @@ export default function Kontak() {
               <p className="mb-3">
                 <span className="font-semibold">Alamat:</span>
                 <br />
-                G3V4+PC4, Limba U Dua, Kota Sel., Kota Gorontalo, Gorontalo
+                Limba U Dua, Kota Sel., Kota Gorontalo, Gorontalo 96136,
+                Indonesia
               </p>
 
               <p className="mb-3">
                 <span className="font-semibold">WhatsApp:</span>
                 <br />
                 <a
-                  href="https://wa.me/+6289677332497"
+                  href="https://wa.me/+6281245494946"
                   target="_blank"
                   className="text-green-600 hover:underline"
                 >
-                  0896-7733-2497
+                  +6281245494946
                 </a>
               </p>
 

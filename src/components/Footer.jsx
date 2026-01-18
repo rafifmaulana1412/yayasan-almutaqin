@@ -33,7 +33,7 @@ export default function Footer() {
         {/* IDENTITAS */}
         <div>
           <h3 className="text-xl font-bold mb-3">
-            Yayasan Al Muttaqin Taki Niode
+            Yayasan Al Muttaqiin Taki Niode
           </h3>
           <p className="text-sm text-green-100 leading-relaxed">
             Lembaga pendidikan Islam yang bergerak di bidang tahfidz Al-Qur’an,
@@ -83,13 +83,13 @@ export default function Footer() {
         <div>
           <h4 className="font-semibold mb-3">Kontak</h4>
           <p className="text-sm text-green-100 leading-relaxed">
-            Jln. Ciheran, Desa Motinelo
+            Limba U Dua, Kota Sel.,
             <br />
-            Kec. Kwandang, Kab. Gorontalo Utara
+            Kota Gorontalo, Gorontalo , Indonesia
             <br />
-            Kode Pos 96518
+            Kode Pos 96136
           </p>
-          <p className="text-sm text-green-100 mt-2">📞 0896-7733-2497</p>
+          <p className="text-sm text-green-100 mt-2">📞 +6281245494946</p>
         </div>
       </div>
 
@@ -100,7 +100,7 @@ export default function Footer() {
 
       {/* COPYRIGHT */}
       <div className="border-t border-green-700 text-center py-4 text-sm text-green-100">
-        © 2026 Yayasan Al Muttaqin Taki Niode. All rights reserved.
+        © 2026 Yayasan Al Muttaqiin Taki Niode. All rights reserved.
       </div>
     </footer>
   );

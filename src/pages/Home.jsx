@@ -57,10 +57,8 @@ export default function Home() {
       {/* HERO */}
       <section className="relative bg-green-700 text-white">
         <div className="max-w-6xl mx-auto px-6 py-24 text-center">
-          <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
-            Mencetak Generasi Qur’ani
-            <br className="hidden md:block" />
-            melalui Pendidikan Tahfidz Al-Qur’an
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold leading-snug md:leading-tight mb-6">
+            Mencetak Generasi Qur’ani melalui Pendidikan Tahfidz Al-Qur’an
           </h1>
 
           <p className="max-w-2xl mx-auto text-lg text-green-100 mb-10">
@@ -91,23 +89,25 @@ export default function Home() {
       <section className="bg-white">
         <div className="max-w-6xl mx-auto px-6 py-16 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           <div>
-            <h3 className="text-2xl font-bold text-green-700">
+            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-green-700 leading-snug tracking-tight">
               Pembinaan hafalan Al-Qur’an secara terstruktur
             </h3>
             <p className="text-gray-600 mt-2">Pendidikan Tahfidz</p>
           </div>
           <div>
-            <h3 className="text-2xl font-bold text-green-700">
+            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-green-700 leading-snug tracking-tight">
               Muraja’ah dan evaluasi berkala
             </h3>
             <p className="text-gray-600 mt-2">Metode Terarah</p>
           </div>
           <div>
-            <h3 className="text-2xl font-bold text-green-700">2010</h3>
+            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-green-700 leading-snug tracking-tight">
+              2010
+            </h3>
             <p className="text-gray-600 mt-2">Tahun Berdiri</p>
           </div>
           <div>
-            <h3 className="text-2xl font-bold text-green-700">
+            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-green-700 leading-snug tracking-tight">
               Lingkungan Islami dan disiplin
             </h3>
             <p className="text-gray-600 mt-2">Berbasis Pesantren</p>
