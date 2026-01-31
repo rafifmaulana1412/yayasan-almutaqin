@@ -57,13 +57,13 @@ export default function Home() {
       <section className="relative bg-green-700 text-white">
         <div className="max-w-6xl mx-auto px-6 py-24 text-center">
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold leading-snug md:leading-tight mb-6">
-            Mencetak Generasi Qur’ani melalui Pendidikan Tahfidz Al-Qur’an
+            Portal Iuran Internal Pendidikan Qur’ani
           </h1>
 
           <p className="max-w-2xl mx-auto text-lg text-green-100 mb-10">
-            Yayasan Al Muttaqiin Taki Niode adalah lembaga pendidikan Islam yang
-            berfokus pada pembinaan dan penghafalan Al-Qur’an melalui Pondok
-            Pesantren Tahfidzul Qur’an di Kota Gorontalo.
+            Iuran internal wali santri dan anggota yayasan yang digunakan untuk
+            mendukung kegiatan pendidikan tahfidz Al-Qur’an serta pembinaan
+            santri
           </p>
 
           <div className="flex justify-center gap-4 flex-wrap">
@@ -71,7 +71,7 @@ export default function Home() {
               to="/donasi"
               className="bg-yellow-400 text-black px-8 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition"
             >
-              Kontribusi Program
+              Pembayaran Internal
             </Link>
 
             <Link
@@ -152,7 +152,7 @@ export default function Home() {
             to="/donasi"
             className="bg-yellow-400 text-black px-10 py-4 rounded-lg font-semibold hover:bg-yellow-300 transition"
           >
-            Kontribusi Program
+            Pembayaran Internal
           </Link>
         </div>
       </section>

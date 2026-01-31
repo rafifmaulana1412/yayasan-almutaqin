@@ -27,7 +27,7 @@ export default function Navbar() {
             to="/donasi"
             className="bg-yellow-400 text-black px-3 py-1 rounded font-semibold"
           >
-            Kontribusi Program Pendidikan
+            Pembayaran Internal
           </Link>
         </div>
 
@@ -63,7 +63,7 @@ export default function Navbar() {
             className="bg-yellow-400 text-black px-3 py-2 rounded font-semibold text-center"
             onClick={() => setOpen(false)}
           >
-            Kontribusi Program Pendidikan
+            Pembayaran Internal
           </Link>
         </div>
       )}

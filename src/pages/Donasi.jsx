@@ -158,7 +158,9 @@ export default function Donasi() {
             </button>
 
             <p className="text-sm text-gray-500 text-center mt-4">
-              Pembayaran diproses aman melalui sistem Midtrans
+              Akses pembayaran ini hanya diperuntukkan bagi wali murid dan
+              anggota yayasan. Yayasan berhak melakukan verifikasi dan menolak
+              pembayaran dari pihak di luar ketentuan
             </p>
 
             <p className="text-xs text-gray-400 text-center mt-3">
