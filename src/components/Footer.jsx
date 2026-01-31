@@ -52,7 +52,7 @@ export default function Footer() {
             </li>
             <li>
               <Link to="/profile" className="hover:underline">
-                Profil Lembaga
+                Profile Lembaga
               </Link>
             </li>
             <li>
@@ -62,7 +62,7 @@ export default function Footer() {
             </li>
             <li>
               <Link to="/donasi" className="hover:underline">
-                Donasi
+                Kontribusi Program Pendidikan
               </Link>
             </li>
           </ul>

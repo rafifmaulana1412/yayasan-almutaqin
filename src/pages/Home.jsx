@@ -39,7 +39,6 @@ export default function Home() {
 
   const [index, setIndex] = useState(0);
 
-  // ===== ROTASI OTOMATIS TIAP 5 DETIK =====
   useEffect(() => {
     const timer = setInterval(() => {
       setIndex((prev) => (prev + 1) % testimonials.length);
@@ -72,7 +71,7 @@ export default function Home() {
               to="/donasi"
               className="bg-yellow-400 text-black px-8 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition"
             >
-              Donasi Sekarang
+              Kontribusi Program
             </Link>
 
             <Link
@@ -125,14 +124,7 @@ export default function Home() {
             <p className="text-gray-700 mb-4">
               Yayasan Al Muttaqiin Taki Niode merupakan lembaga pendidikan Islam
               yang bergerak di bidang pembinaan dan pendidikan Al-Qur’an,
-              khususnya dalam pengembangan tahfidzul Qur’an. Yayasan ini
-              menaungi Pondok Pesantren Tahfidzul Qur’an Al Muttaqiin Taki Niode
-              yang berlokasi di Kota Gorontalo.
-            </p>
-            <p className="text-gray-700 mb-6">
-              Didirikan pada tahun 2010, yayasan ini berkomitmen mencetak
-              generasi Qur’ani yang berakhlak mulia, disiplin, dan mampu
-              mengamalkan nilai-nilai Al-Qur’an dalam kehidupan bermasyarakat.
+              khususnya dalam pengembangan tahfidzul Qur’an.
             </p>
 
             <Link
@@ -141,75 +133,6 @@ export default function Home() {
             >
               Lihat Profil Lengkap
             </Link>
-          </div>
-
-          <div className="grid grid-cols-2 gap-4">
-            <div className="bg-white p-6 rounded-lg shadow">
-              <h4 className="font-semibold mb-2">Pendidikan Tahfidz</h4>
-              <p className="text-sm text-gray-600">
-                Program penghafalan Al-Qur’an dengan target hafalan bertahap
-                hingga 30 juz melalui metode muraja’ah dan evaluasi berkala.
-              </p>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow">
-              <h4 className="font-semibold mb-2">Pembinaan Keagamaan</h4>
-              <p className="text-sm text-gray-600">
-                Pembinaan ibadah, akhlak, dan adab santri sebagai bagian dari
-                pembentukan karakter Qur’ani.
-              </p>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow">
-              <h4 className="font-semibold mb-2">Kepesantrenan</h4>
-              <p className="text-sm text-gray-600">
-                Kegiatan kepesantrenan terstruktur yang menanamkan kedisiplinan,
-                tanggung jawab, dan kehidupan Islami.
-              </p>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow">
-              <h4 className="font-semibold mb-2">Sosial & Dakwah</h4>
-              <p className="text-sm text-gray-600">
-                Kontribusi dalam pembinaan keagamaan dan dakwah Al-Qur’an di
-                lingkungan masyarakat sekitar.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* TESTIMONI / CERITA SANTRI OTOMATIS */}
-      <section className="bg-white py-16">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-8 text-green-700">
-            Cerita Santri
-          </h2>
-
-          <div className="relative">
-            <AnimatePresence mode="wait">
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -20 }}
-                transition={{ duration: 0.5 }}
-                className="bg-gray-50 p-8 rounded-lg shadow text-gray-700"
-              >
-                <p className="italic mb-4">"{testimonials[index].quote}"</p>
-                <p className="font-semibold">{testimonials[index].nama}</p>
-              </motion.div>
-            </AnimatePresence>
-
-            {/* DOT INDICATOR */}
-            <div className="flex justify-center gap-2 mt-4">
-              {testimonials.map((_, i) => (
-                <span
-                  key={i}
-                  onClick={() => setIndex(i)}
-                  className={`w-3 h-3 rounded-full cursor-pointer ${
-                    i === index ? "bg-green-700" : "bg-gray-300"
-                  }`}
-                />
-              ))}
-            </div>
           </div>
         </div>
       </section>
@@ -221,16 +144,15 @@ export default function Home() {
             Jadilah Bagian dari Pendidikan Qur’ani
           </h2>
           <p className="max-w-xl mx-auto text-green-100 mb-8">
-            Dukungan Anda berperan penting dalam keberlangsungan pendidikan
-            tahfidz Al-Qur’an. Mari bersama mendukung pembinaan generasi Qur’ani
-            melalui pendidikan yang berkelanjutan.
+            Partisipasi Anda membantu keberlangsungan pendidikan tahfidz
+            Al-Qur’an dan pembinaan generasi Qur’ani.
           </p>
 
           <Link
             to="/donasi"
             className="bg-yellow-400 text-black px-10 py-4 rounded-lg font-semibold hover:bg-yellow-300 transition"
           >
-            Donasi Sekarang
+            Kontribusi Program
           </Link>
         </div>
       </section>

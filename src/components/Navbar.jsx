@@ -22,12 +22,12 @@ export default function Navbar() {
           <Link to="/program">Program</Link>
           <Link to="/galery">Galery</Link>
           <Link to="/kontak">Kontak</Link>
-          <Link to="/profilLengkap">Profil Lembaga</Link>
+          <Link to="/profilLengkap">Profile Lembaga</Link>
           <Link
             to="/donasi"
             className="bg-yellow-400 text-black px-3 py-1 rounded font-semibold"
           >
-            Donasi
+            Kontribusi Program Pendidikan
           </Link>
         </div>
 
@@ -56,14 +56,14 @@ export default function Navbar() {
             Kontak
           </Link>
           <Link to="/profilLengkap" onClick={() => setOpen(false)}>
-            Profil Lembaga
+            Profile Lembaga
           </Link>
           <Link
             to="/donasi"
             className="bg-yellow-400 text-black px-3 py-2 rounded font-semibold text-center"
             onClick={() => setOpen(false)}
           >
-            Donasi
+            Kontribusi Program Pendidikan
           </Link>
         </div>
       )}
