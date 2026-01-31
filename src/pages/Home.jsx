@@ -136,26 +136,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* CTA AKHIR */}
-      <section className="bg-green-700 text-white">
-        <div className="max-w-6xl mx-auto px-6 py-20 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Jadilah Bagian dari Pendidikan Qur’ani
-          </h2>
-          <p className="max-w-xl mx-auto text-green-100 mb-8">
-            Partisipasi Anda membantu keberlangsungan pendidikan tahfidz
-            Al-Qur’an dan pembinaan generasi Qur’ani.
-          </p>
-
-          <Link
-            to="/donasi"
-            className="bg-yellow-400 text-black px-10 py-4 rounded-lg font-semibold hover:bg-yellow-300 transition"
-          >
-            Pembayaran Internal
-          </Link>
-        </div>
-      </section>
     </div>
   );
 }

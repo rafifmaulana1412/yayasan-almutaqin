@@ -3,6 +3,7 @@ import { AnimatePresence } from "framer-motion";
 
 import Navbar from "./components/Navbar";
 import PageTransition from "./components/PageTransition";
+import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
 import Profile from "./pages/Profile";
@@ -88,6 +89,7 @@ export default function App() {
         <main className="flex-1">
           <AnimatedRoutes />
         </main>
+        <Footer />
       </div>
     </BrowserRouter>
   );
