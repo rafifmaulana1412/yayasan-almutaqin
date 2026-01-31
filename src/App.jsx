@@ -2,7 +2,6 @@ import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 import PageTransition from "./components/PageTransition";
 
 import Home from "./pages/Home";
@@ -89,8 +88,6 @@ export default function App() {
         <main className="flex-1">
           <AnimatedRoutes />
         </main>
-
-        <Footer />
       </div>
     </BrowserRouter>
   );
