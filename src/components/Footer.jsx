@@ -62,7 +62,7 @@ export default function Footer() {
             </li>
             <li>
               <Link to="/donasi" className="hover:underline">
-                Kontribusi Program Pendidikan
+                Pembayaran Internal
               </Link>
             </li>
           </ul>
