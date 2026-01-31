@@ -41,33 +41,6 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* MENU */}
-        <div>
-          <h4 className="font-semibold mb-3">Menu</h4>
-          <ul className="space-y-2 text-sm text-green-100">
-            <li>
-              <Link to="/" className="hover:underline">
-                Beranda
-              </Link>
-            </li>
-            <li>
-              <Link to="/profile" className="hover:underline">
-                Profile Lembaga
-              </Link>
-            </li>
-            <li>
-              <Link to="/program" className="hover:underline">
-                Program
-              </Link>
-            </li>
-            <li>
-              <Link to="/donasi" className="hover:underline">
-                Pembayaran Internal
-              </Link>
-            </li>
-          </ul>
-        </div>
-
         {/* PROGRAM */}
         <div>
           <h4 className="font-semibold mb-3">Program Unggulan</h4>
