@@ -47,9 +47,10 @@ export default function Donasi() {
             Kontribusi Program Pendidikan
           </h1>
           <p className="max-w-3xl mx-auto text-green-100 text-lg">
-            Partisipasi masyarakat membantu keberlangsungan pendidikan tahfidz
-            Al-Qur’an, pembinaan santri, serta kegiatan sosial Yayasan Al
-            Muttaqiin Taki Niode.
+            Partisipasi ini merupakan iuran internal yang hanya diperuntukkan
+            bagi wali murid dan anggota Yayasan Al Muttaqiin Taki Niode, sebagai
+            dukungan operasional pendidikan dan pembinaan santri, serta bukan
+            merupakan penggalangan dana dari masyarakat umum.
           </p>
         </div>
       </section>
@@ -81,7 +82,7 @@ export default function Donasi() {
               Program Sosial
             </h3>
             <p className="text-sm text-gray-600">
-              Mendukung pembinaan sosial dan kegiatan dakwah masyarakat sekitar.
+              Mendukung pembinaan sosial dan kegiatan dakwah.
             </p>
           </div>
         </div>
